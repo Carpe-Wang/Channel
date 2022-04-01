@@ -15,7 +15,7 @@ Channel learing note
 
 运行结果：
 
-In main()
+```In main()
 
 About to sleep in main()
 
@@ -27,4 +27,4 @@ End of shortWait()
 
 End of longWait()
 
-At the end of main()
+At the end of main()```
