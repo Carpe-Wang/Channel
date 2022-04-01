@@ -5,7 +5,7 @@ Channel learing note
 
 主要是简单的介绍和sync使用。
 
-# demo1
+# demo01
 
 介绍协程使用 4K 的栈内存就可以在堆中创建它们。
 
@@ -28,3 +28,20 @@ End of shortWait()
 End of longWait()
 
 At the end of main()
+```
+
+
+# 协程之间的通信demo02
+
+创建管道的三种方式：
+```
+var ch1 chan string
+ch1 = make(chan string)
+ch1 := make(chan interface{})
+```
+
+输出结果：
+```
+Washington Tripoli London Beijing Tokyo
+```
+
